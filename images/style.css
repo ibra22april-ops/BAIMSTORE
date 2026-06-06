@@ -1,0 +1,59 @@
+.hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bg.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 200px 0;
+        }
+        /* ===== Kartu Produk ===== */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* ===== Gambar Produk ===== */
+.product-img {
+    transition: transform 0.5s ease;
+    object-fit: cover;
+    height: 220px;
+}
+.card:hover .product-img {
+    transform: scale(1.08);
+}
+
+/* ===== Tombol Beli ===== */
+.card .btn-dark {
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+.card .btn-dark:hover {
+    background-color: #0072FF !important;
+    border-color: #0072FF !important;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 114, 255, 0.35);
+}
+
+/* ===== Badge ===== */
+.card .badge {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.card:hover .badge {
+    transform: scale(1.1);
+}
+
+/* ===== Harga ===== */
+.card .fw-bold.text-dark {
+    transition: color 0.3s ease;
+}
+.card:hover .fw-bold.text-dark {
+    color: #0072FF !important;
+}
+
+/* ===== Judul Produk ===== */
+.card-title {
+    transition: color 0.3s ease;
+}
+.card:hover .card-title {
+    color: #0072FF;
+}
